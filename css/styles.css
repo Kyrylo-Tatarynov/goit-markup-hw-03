@@ -69,7 +69,8 @@ img {
     border-bottom: 1px solid #ECECEC;
 }
 .content {
-    padding: 25px 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .logo {
     color: var(--tittle-text-color);
@@ -240,6 +241,7 @@ footer .logo.link {
     margin-bottom: 50px;
 }
 .portfolio-buttons .button{
+    display: inline-block;
     padding: 6px 26px;
     color: var(--tittle-text-color);
     background-color: var(--secondary-bg-color);
