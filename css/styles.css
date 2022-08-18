@@ -277,10 +277,10 @@ footer .logo.link {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    width: 233px;
 }
 .footer-contacts .address {
     display: inline-block;
-    width: 233px;
 
     color: var(--secondary-text-color);
 }
