@@ -64,9 +64,11 @@ img {
 .section {
     padding: 94px 0;
 }
+
 /* ------------------------------------- */
 /*             STYLES HEADER             */
 /* ------------------------------------- */
+
 .page-header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -306,16 +308,11 @@ footer .logo.link {
     display: flex;
     justify-content: center;
 }
-.list-item:nth-child(3) {
-    flex-basis:auto;
-    flex-grow:2;
-}
 .portfolio-buttons .list-item:not(:last-child) {
     margin-right: 8px;
 }
 
 .portfolio-buttons .button{
-    display: inline-block;
     padding: 6px 26px;
 
     color: var(--tittle-text-color);
