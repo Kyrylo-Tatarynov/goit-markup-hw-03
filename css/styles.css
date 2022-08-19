@@ -109,6 +109,9 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.navigation-list .current {
+    color: var(--accent-text-color);
+}
 .header-contacts {
     display: flex;
 }
@@ -116,6 +119,10 @@ img {
     margin-right: 50px;
 }
 .header-contacts .contact {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
     color: inherit;
     font-weight: 500;
     font-size: 14px;
