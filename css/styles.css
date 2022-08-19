@@ -140,6 +140,8 @@ img {
     color: var(--secondary-text-color);
     letter-spacing: 0.06em;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .first-part .title {
     width: 696px;
@@ -246,8 +248,7 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 .woker {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 15px;
 }
 .fourth-part .name{
     margin-bottom: 10px;
@@ -262,22 +263,26 @@ img {
 
 footer {
     background-color: var(--accent-bg-color);
-}
-.final-content {
     padding-top: 60px;
     padding-bottom: 60px;
 }
 footer .logo.link {
     display: inline-block;
     margin-bottom: 10px;
+    margin-right: 0;
 
     color: var(--secondary-text-color);
+}
+.width {
+    width: 233px;
 }
 .footer-contacts {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    width: 233px;
+}
+.footer-contacts .item:not(:last-child) {
+    padding-bottom: 9px;
 }
 .footer-contacts .address {
     display: inline-block;
@@ -327,6 +332,7 @@ footer .logo.link {
 .portfolio-buttons .button:focus {
     color: var(--secondary-text-color);
     background-color: var(--accent-bg-blue-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-list {
     display: flex;
